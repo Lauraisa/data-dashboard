@@ -1,3 +1,25 @@
 /*
  * Estilos de tu proyecto
  */
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     margin-top: -40px;
+     margin-left: 40px;
+     padding-bottom: -20px;
+     display: inline-block;
+}
+
+.menu {
+    padding-left: 20px;
+   
+}
+
+     
+    
+
+     
