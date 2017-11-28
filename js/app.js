@@ -1,5 +1,9 @@
 window.addEvenListener('load', function() {
 
+<<<<<<< HEAD
+var 
+  
+=======
   var sedeLima = document.getElemetbyId('sedeLima');
   var inscritos = document.getElementById('inscritos');
   var desertores = document.getElementById('desertores');
@@ -16,7 +20,14 @@ sedeLima.addEvenListener('click',function(event){
 
 
 
+<<<<<<< HEAD
 });
+=======
+
+
+});*/
+>>>>>>> a4bf16308ae5c1ba3cc42922228e1bb215e5ec07
+>>>>>>> ac27c317f1563a6c54e957abee90000a2833b9fb
 
 
 
@@ -29,7 +40,13 @@ sedeLima.addEvenListener('click',function(event){
 
 
 
+<<<<<<< HEAD
+});
+=======
 
+>>>>>>> a4bf16308ae5c1ba3cc42922228e1bb215e5ec07
 
 // Puedes hacer uso de la base de datos a través de la variable `data`
 console.log(data);
+console.log(hola);
+
