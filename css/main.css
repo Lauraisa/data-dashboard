@@ -1,7 +1,6 @@
 /*
  * Estilos de tu proyecto
  */
-
  * {
      margin: 0;
      padding: 0;
@@ -9,11 +8,15 @@
 /* Estilo reutilizable */
 .text  {
     width: 115px;
+    margin-top: 19px;
+    background: rgb(225,225,225);
+    height: 56px;
+   
 }
 .text p:first-child {
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 .text1 {
     font-size: 10px;
@@ -22,9 +25,26 @@
 
 .texttwo{
     float: right;
-    margin-top: -39px;
-    
-    font-weight: bold;
+    margin-top: -55px;
+    background: rgb(225,225,225);
+    height: 55px;
+    width: 140px;
+    font-size: 22px;
+}
+
+.texttwo p:first-child {
+    color: red;
+    text-align: center;
+
+}
+.textletter {
+    font-size: 10px;
+    text-align: center;
+}
+.gragh {
+    height: 245px;
+    width: 295px;
+    margin-top: 20px;
 }
 
 /* Estilos específico*/
@@ -38,7 +58,7 @@
     margin-left: 1050px;
     margin-top: -87px;
     font-size: 30px;
-   
+
 }
 /*section first*/ 
 .sub-container1 {
@@ -59,8 +79,12 @@
     margin-top: -45px;
     float: right;
     border: none;
-    background: rgb(225,225,225)
+    background: rgb(225,225,225);
 }
+optgroup {
+    color:rgb(240, 94, 41);
+}
+
 
 .submenu {
     font-size: 20px;
@@ -71,9 +95,10 @@
 .secund2 {
     position: relative;
     margin-top: 65px;
+    background: yellow; 
 }
 .parrafo {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -81,21 +106,231 @@
     position: absolute;
     margin-left: 100px;
     overflow: none;
+    background: white;
+    padding-left: 36px;
+    padding-right: 36px;
+    
 }
 
 #box2 {
     position: absolute;
-    margin-left:550px;
+    margin-left:500px;
     overflow: none;
-    }
+    background: white;
+    padding-left: 36px;
+    padding-right: 36px;
+   
+    
+}
 #box3 {
     position: absolute;
-    margin-left: 1000px;
+    margin-left: 900px;
+    padding-left: 36px;
+    padding-right: 36px;
+    overflow: none;
+    background: white;
+   
+    
+
+}
+.textchange p:first-child { 
+    color: black;
+    
+}
+.textchange {
+    float: right;
+    margin-top: -55px;
+    background: rgb(225,225,225);
+    height: 55px;
+    width: 140px;
+}
+/* parte 2 Noelia  Tello*/
+
+ #parte3{
+    padding-top: 500px;
+    background-color: #F2F4F4;
+ }
+
+ #container3{
+     background-color: white;
+     margin: 100px;
+     padding-bottom: 100px;
+
+
+ }
+#title3{
+    display:inline-block;
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    margin-left: 120px;
+    font-size: 4vh;
+}
+
+.selectcontainer3{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 260px;
+
+
+}
+.selection3{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 260px;
+    border-style: none;
+    color:gray;
+    text-decoration: none;
+}
+
+
+.ruler3{
+    width: 240px;
+    margin-left: 350px;
+    margin-top: -30px;
+    size:3;
+}
+
+option{
+
+color: black;
+font-family: sans-serif;
+
+}
+
+.titleMenu3{
+    color:orange;
+    font-family: sans-serif;
+    font-size: 2.3vh;
+}
+.box3{
+    width: 260px;
+    height: 100px;
+    background-color: #E6E1DC;
+    margin-left: 50px;
+    margin-top: 50px;
+    display:inline-block;
+    margin-top: 40px;
+    text-align: center;
+}
+.two{
+    margin-left: 40px;
+}
+
+.pbox3{
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 20px;
+}
+.green3{
+   color: #28B463 ;
+}
+.dateA3{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.dateB3{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+
+#container4{
+    background-color: white;
+    margin: 100px;
+    padding-bottom: 100px;
+
+
+}
+#title4{
+   display:inline-block;
+   margin-top: 50px;
+   width: 200px;
+   height: 60px;
+   margin-left: 120px;
+   font-size: 4vh;
+}
+
+.selectcontainer4{
+   display: inline-block;
+   margin-left: 20px;
+   margin-top: 0px;
+   width: 260px;
+
+
+}
+.selection4{
+   display: inline-block;
+   margin-left: 20px;
+   margin-top: 0px;
+   width: 260px;
+   border-style: none;
+   color:gray;
+   text-decoration: none;
+}
+
+
+.ruler4{
+   width: 240px;
+   margin-left: 350px;
+   margin-top: -30px;
+   size:3;
+}
+
+option{
+
+color: black;
+font-family: sans-serif;
 
 }
 
 
-    
+.titleMenu4{
+   color:orange;
+   font-family: sans-serif;
+   font-size: 2.3vh;
+}
+.box4{
+   width: 280px;
+   height: 100px;
+   background-color: #E6E1DC;
+   margin-left: 50px;
+   margin-top: 50px;
+   display:inline-block;
+   margin-top: 40px;
+   text-align: center;
+}
+.two{
+   margin-left: 40px;
+}
+
+.pbox4{
+   color: black;
+   display: inline-block;
+   text-align: center;
+   font-size: 2vh;
+   margin-top: 20px;
+ }
 
 
+.green{
+  color: #28B463 ;
+}
+.dateA4{
+   display: inline-block;
+   margin-left: 50px;
+   margin-top: 80px;
+}
+
+
+.dateB4{
+   display: inline-block;
+   margin-left: 80px;
+}
 
