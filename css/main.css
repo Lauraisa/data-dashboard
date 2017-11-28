@@ -6,7 +6,10 @@
      margin: 0;
      padding: 0;
  }
+#parte2{
+margin-top: 50px;
 
+}
  .container {
      margin-top: -40px;
      margin-left: 40px;
@@ -16,10 +19,76 @@
 
 .menu {
     padding-left: 20px;
-   
+
 }
 
-     
-    
+/* parte 2 Noelia  Tello*/
 
-     
+
+
+#title{
+    display:inline-block;
+    width: 200px;
+    height: 60px;
+    margin-left: 120px;
+    font-size: 4vh;
+}
+.selectcontainer{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 260px;
+
+
+}
+.selection{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 260px;
+    border-style: none;
+    color:gray;
+    text-decoration: none;
+}
+
+.ruler{
+    width: 200px;
+    margin-left: 340px;
+    size:3;
+}
+
+option{
+
+color: black;
+font-family: sans-serif;
+
+}
+
+.titleMenu{
+    color:orange;
+    font-family: sans-serif;
+    font-size: 2.3vh;
+}
+.box{
+    width: 260px;
+    height: 100px;
+    background-color: #F2F4F4;
+    margin-left: 150px;
+    display:inline-block;
+    margin-top: 40px;
+    text-align: center;
+}
+.two{
+    margin-left: 40px;
+}
+
+.pbox{
+    color: gray;
+    display: inline-block;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 20px;
+}
+.green{
+   color: #28B463 ;
+}
