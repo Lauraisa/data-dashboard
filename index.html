@@ -5,6 +5,7 @@
     <title>Data Dashboard</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   </head>
   <body>
     <!--Realizando header -->
@@ -17,16 +18,51 @@
     </div>
     </header>
     <!--Realizando section first -->
-    <section class="sub-container">
+    <section class="sub-container1">
         <div class="menu">
-          <p>SANTIAGO DE CHILE 2017 - II <span class="down"><i class="fa fa-caret-down" aria-hidden="true"></i></span></p>
+          <p>SANTIAGO DE CHILE 2017 - II</p>
+          <form action="index.html" method="post">
+            <select name="Sedes" id="select1"  >
+                <option value=""></option> 
+                <optgroup label="LIMA"> 
+                    <option value="1">2015 - I</option> 
+                    <option value="2">2015 - II</option> 
+                    <option value="3">2016 - I</option>
+                    <option value="3">2016 - II</option> 
+                    <option value="3">2017 - I</option>
+                    <option value="3">2017 - II</option>  
+                </optgroup> 
+                <optgroup label="AREQUIPA"> 
+                    <option value="1">2015 - I</option> 
+                    <option value="3">2016 - I</option>
+                    <option value="3">2016 - II</option> 
+                    <option value="3">2017 - I</option>
+                    <option value="3">2017 - II</option>  
+                </optgroup> 
+                <optgroup label="SANTIAGO DE CHILE"> 
+                    <option value="1">2015 - I</option> 
+                    <option value="3">2016 - I</option>
+                    <option value="3">2016 - II</option> 
+                    <option value="3">2017 - I</option>
+                    <option value="3">2017 - II</option>  
+                </optgroup> 
+                <optgroup label="CIUDAD DE MEXICO"> 
+                    <option value="1">2015 - I</option> 
+                    <option value="3">2016 - I</option>
+                    <option value="3">2016 - II</option> 
+                    <option value="3">2017 - I</option>
+                    <option value="3">2017 - II</option>  
+                </optgroup> 
+            </select>
+
+          </form>
         </div>
         <span class="submenu">OVERVIEW</span>
         <span class="submenu">STUDENTS</span>
         <span class="submenu">TEACHER</span>
       </section>
       <!--Realizando section secund -->
-      <section class="secund">
+      <section class="secund2">
         <div id="box1" >
         <p class="parrafo">ENROLLMENT</p>
           <div class="text">
@@ -58,7 +94,7 @@
         <div id="box3">
             <p class="parrafo">NET PROMOTER SCORE</p>
             <div class="text">
-              <p class="text1">78%</p>
+              <p>78%</p>
               <p class="text1">% CUMULATIVE NPS</p>
             </div>
             <div class="texttwo">
@@ -71,7 +107,8 @@
             </div> 
         </div>
       </section>
-
+      
+     
 
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
