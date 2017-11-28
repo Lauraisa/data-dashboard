@@ -46,6 +46,11 @@
     width: 295px;
     margin-top: 20px;
 }
+optgroup {
+    color:rgb(240, 94, 41);
+    font-weight: bold;
+    font-size: 17px;
+}
 
 /* Estilos específico*/
  .container {
@@ -81,9 +86,7 @@
     border: none;
     background: rgb(225,225,225);
 }
-optgroup {
-    color:rgb(240, 94, 41);
-}
+
 
 
 .submenu {
@@ -334,8 +337,6 @@ font-family: sans-serif;
    margin-left: 80px;
 }
 
-<<<<<<< HEAD
-=======
 
 .parrafo5 {
     font-size: 18px;
@@ -345,7 +346,6 @@ font-family: sans-serif;
 #box5{
     position: absolute;
     margin-left: 100px;
-
 
 }
 
@@ -374,4 +374,4 @@ font-family: sans-serif;
     padding-left: 36px;
     padding-right: 36px;
 }
->>>>>>> 0ed56bfbce96de0e6903b8d8db0b1fddaadc6875
+
