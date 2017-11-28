@@ -1,4 +1,4 @@
-/*window.addEvenListener('load', function() {
+window.addEvenListener('load', function() {
 
   var sedeLima = document.getElemetbyId('sedeLima');
   var inscritos = document.getElementById('inscritos');
@@ -8,16 +8,15 @@
 
 sedeLima.addEvenListener('click',function(event){
 
-if  (event.target){
+  if( event.target){
+    inscritos.value=data['LIM']["2016-2"]['students'].length;
+  }
 
-  inscritos.value=console.log(lima['name']);
-}
-
-
-
+                
 
 
-});*/
+
+});
 
 
 
