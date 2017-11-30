@@ -5,17 +5,21 @@
     <title>Data Dashboard</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
   <body>
     <!--Realizando header -->
     <header>
-    <div class="container">
-      <img src="assets/images/logo-laboratoria.svg" width="180" height="150" alt="laboratoria">
-
-    </div>
-    <div class="icon">
-      <i class="fa fa-bars" aria-hidden="true"></i>
+      <div class="container">
+      <img src="assets/images/logo-laboratoria.svg" alt="laboratoria">
+        <div class="icon">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <i class="fa fa-bell-o" aria-hidden="true"></i>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <a href="#">Usuario</a>
+        </div>
     </div>
     </header>
     <!--Realizando section first -->
@@ -57,12 +61,19 @@
               </select>
           </form>
         </div>
-        <span class="submenu">OVERVIEW</span>
-        <span class="submenu">STUDENTS</span>
-        <span class="submenu">TEACHER</span>
+          </form>
+        </div>
+
       </section>
       <!--Realizando section secund -->
-      <section class="secund2">
+      <section class="secund2" >
+        <div class="secundbox">
+          <div class="sectisecun"><p>LABORATORIA</p></div>
+          <div class="sectisecun"><p>ALUMNAS</p></div>
+          <div class="sectisecun"><p>CURSOS</p></div>
+          <div class="sectisecun"><p>DOCENTES</p></div>
+          <div class="sectisecun"><P>MENSAJES DIRECTOS</P></div>
+        </div>
         <div id="box1" >
         <p class="parrafo">ENROLLMENT</p>
           <div class="text">
@@ -80,11 +91,11 @@
         <div  id="box2">
           <p class="parrafo">ACHIEVEMENT</p>
             <div class="text">
-              <p id="calificados">105</p>
+              <p id="calificados"></p>
               <p class="text1"># STUDENT THA MEET THE TARGET</p>
             </div>
             <div class="texttwo">
-              <p id="clasficadosPorcentaje">78%</p>
+              <p id="clasficadosPorcentaje"></p>
               <p class="textletter">% OF TOTAL </p>
             </div>
             <div>
@@ -94,11 +105,11 @@
         <div id="box3">
             <p class="parrafo">NET PROMOTER SCORE</p>
             <div class="text">
-              <p>78%</p>
+              <p></p>
               <p class="text1">% CUMULATIVE NPS</p>
             </div>
             <div class=" textchange">
-              <p>60% Promoters</p>
+              <p id="textPromote"></p>
               <p>30% Passive</p>
               <p>10% Detractors</p>
             </div>
@@ -106,32 +117,47 @@
               <img class="gragh"  src="assets/images/graph.png" alt="barras">
             </div>
         </div>
+
       </section>
 
   <section id="parte3">
+    <div class="secundthree">
+
+    </div>
+
     <div id="container3">
       <span id="title3">TECH SKILLS </span>
       <form class="selectcontainer3" action="index.html" method="post">
           <select class="selection3" name="tech style" >
-          <option value=""></option>
-          <optgroup  class="titleMenu3" label="COMON CORE">
-          <option value="sprint1"> O Sprint 1</option>
-          <option value="sprint2"> O Sprint 2</option>
-          <option value="sprint3"> O Sprint 3</option>
-          <option value="sprint4"> O Sprint 4</option>
-        </optgroup>
-          <optgroup class="titleMenu3"label="JAVA SCRIPT">
-          <option value="sprint5"> O Sprint 5</option>
-          <option value="sprint6"> O Sprint 6</option>
-          <option value="sprint7"> O Sprint 7</option>
-          <option value="sprint8"> O Sprint 8</option>
-        </optgroup>
-          <optgroup  class="titleMenu3"label="UX DESIGN">
-          <option value=""> O Sprint 5</option>
-          <option value=""> O Sprint 6</option>
-          <option value=""> O Sprint 7</option>
-          <option value=""> O Sprint 8</option>
-        </optgroup>
+              <option class="promos" id="lima" value="2016-2">lim2016-2</option>
+              <option class="promos" id="lima" value="2017-1">lim2017-1</option>
+              <option class="promos"id="lima" value="2017-2">lim2017-2</option>
+         </select>
+         <p>Arequipa</p>
+         <select id="select2" name="">
+              <option class="promos"id="arequipa" value="2015-1">aqp2015-1</option>
+              <option class="promos"id="arequipa" value="2016-1">aqp2016-1</option>
+              <option class="promos"id="arequipa" value="2016-2">aqp2016-2</option>
+              <option class="promos"id="arequipa" value="2017-1">aqp2017-1</option>
+              <option class="promos"id="arequipa" value="2017-2">aqp2017-2</option>
+        </select>
+        <p>SANTIAGO</p>
+
+        <select id="select3" name="">
+
+              <option class="promos" id="santiago" value="2015-1">stg2015-1</option>
+              <option class="promos" id="santiago" value="2016-1">stg2016-1</option>
+              <option class="promos" id="santiago" value="2016-2">stg2016-2</option>
+              <option  class="promos"id="santiago" value="2017-1">stg2017-1</option>
+              <option  class="promos"id="santiago" value="2017-2">stg2017-2</option>
+        </select>
+        <p>Mexico</p>
+        <select id="select4" name="">
+              <option  class="promos"id="mexico" value="2015-1">mex2015-1</option>
+              <option  class="promos"id="mexico" value="2016-1">mex2016-1</option>
+              <option  class="promos"id="mexico" value="2016-2">mex2016-2</option>
+              <option  class="promos"id="mexico" value="2017-1">mex2017-1</option>
+              <option class="promos" id="mexico" value="2017-2">mex2017-2</option>
          </select>
       </form>
 
@@ -172,51 +198,58 @@
          </select>
       </form>
       <hr class="ruler4">
-      <div class="box4">
-        <span class="pbox4">80</span>
-        <span class="pbox4"> # OVERAL CLASS AVERAGE</span>
+      <div class="box3">
+        <span class="pbox3">80</span>
+        <span class="pbox3"> # OVERAL CLASS AVERAGE</span>
       </div>
-      <div class="box4 two">
-        <span class="pbox4 green">62</span>
-        <span class="pbox4"># OF STUDENTS THAT MEET THE TARGET</span>
+      <div class="box3 two">
+        <span class="pbox3 green">62</span>
+        <span class="pbox3"># OF STUDENTS THAT MEET THE TARGET</span>
       </div>
        <div class="dateA4"><img id="imageA3"src="assets/images/rectangular-graphic.png" alt=""></div>
        <div class="dateB4"><img id="imageB3" src="assets/images/circle-graphic.png" alt=""></div>
     </div>
   </section>
 
+  <section class="secundfour">
 
-    <div id="box5" >
-    <p class="parrafo5">LIFE SKILLS</p>
-      <div class="text5">
-        <p>80</p>
-        <p class="text5"># OVERAL CLASS AVERAGE</p>
-      </div>
-      <div>
-        <img src="assets/images/bar-graph.png" alt="barras">
-      </div>
-    </div>
-    <div  id="box6">
-      <p class="parrafo5">ACHIEVEMENT</p>
-        <div class="text5">
-          <p>150</p>
-          <p class="text5"># STUDENT THA MEET THE TANGET</p>
-        </div>
-         <div>
-          <img src="assets/images/graph.png" alt="barras">
-        </div>
-    </div>
-    <div id="box7">
-        <p class="parrafo">NET PROMOTER SCORE</p>
-        <div class="text5">
-          <p class="text5">78%</p>
-          <p class="text5">% CUMULATIVE NPS</p>
-        </div>
-        <div>
-          <img src="assets/images/graph.png" alt="barras">
-        </div>
-    </div>
+          <div class="secundboxfour">
 
+          </div>
+          <div id="box5" >
+          <p class="parrafo">STUDENT SATISFACTION</p>
+            <div class="text">
+              <p id="inscritos">140</p>
+              <p class="text1">% MEETING OR EXCEEDING EXPECTATIONS(CUMULATE)</p>
+            </div>
+
+            <div>
+              <img  class="gragh" src="assets/images/bar-graph.png" alt="barras">
+            </div>
+          </div>
+          <div  id="box6">
+            <p class="parrafo">TEACHER RATING</p>
+              <div class="text">
+                <p id="calificados">4.2</p>
+                <p class="text1">OVERALL TEACHER RATING(ACUMULATE)</p>
+              </div>
+
+              <div>
+                <img  class="gragh" src="assets/images/graph.png" alt="barras">
+              </div>
+          </div>
+          <div id="box7">
+              <p class="parrafo">JEDI MASTER RATING</p>
+              <div class="text">
+                <p>50</p>
+                <p class="text1">OVERALL JEDI RATING(ACUMULATE)</p>
+              </div>
+
+              <div>
+                <img class="gragh"  src="assets/images/graph.png" alt="barras">
+              </div>
+          </div>
+    </section>
 		<!-- Base de datos -->
 
 
