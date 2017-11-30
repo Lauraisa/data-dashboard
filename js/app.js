@@ -4,15 +4,15 @@ function proter() {
 
   var promoters = document.getElementById('lima');
   var promotersLim = 0;
-  promoters= data['LIM']['2016-2']['ratings'][0]['nps']['promoters'];
+  promoters = data['LIM']['2016-2']['ratings'][0]['nps']['promoters'];
   for (var i = 0; i < promoters.length; i++) {
-      if (promoters[i]['promoters'] === true) {
-        promotersLim++;
-      }
-
+    if (promoters[i]['promoters'] === true) {
+      promotersLim++;
     }
-  };
-  proter();
+
+  }
+};
+proter();
 
 var selection = document.getElementById('select1');
 selection.addEventListener('change', function() {
@@ -25,17 +25,17 @@ selection.addEventListener('change', function() {
 
 /* life skills*/
 
-var jedimasterLima1 =[ data['LIM']['2016-2']['ratings'][0]['teacher'],
-                      data['LIM']['2017-1']['ratings'][0]['teacher'],
-                      data['LIM']['2017-2']['ratings'][0]['teacher']];
+var jedimasterLima1 = [ data['LIM']['2016-2']['ratings'][0]['teacher'],
+  data['LIM']['2017-1']['ratings'][0]['teacher'],
+  data['LIM']['2017-2']['ratings'][0]['teacher']];
 var sumaJedi = 0;
-for(var i=0; i<jedimasterLima.length;i++);
-sumaJedi+=sumaJedi;
+for (var i= 0; i<jedimasterLima.length;i++);
+sumaJedi +=sumaJedi;
 
-var containerJedi =document.getElementById('jedi');
+var containerJedi = document.getElementById('jedi');
 var selection = document.getElementById('select1');
 selection.addEventListener('change', function() {
-    if (selection.value = '2016-2') {
+  if (selection.value = '2016-2') {
     containerPromoters.textContent = promotersLim;
   }
 });
