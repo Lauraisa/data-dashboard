@@ -80,7 +80,6 @@ function inactivesArequipa() {
 
 var contadorArequipaSecond = 0;
 function activesArequipaSecond() {
-  debugger;
   var student = data['AQP']['2017-1']['students'];
   for (var i = 0; i < student.length; i++) {
     if (student[i]['active'] === true) {
@@ -246,5 +245,127 @@ selection4.addEventListener('change', function() {
     containerEnrollment.textContent = contadorMexicoFirst ;
   } else if (selection4.value === '2017-2') {
     containerEnrollment.textContent = contadorMexicoSecond;
+  }
+});
+/* accediendo al porcentaje  de  desertoras*/
+/* var totalInscritas= student.length;
+var ActualStudent= contador.
+var  desertors=
+(lengt-contador/lengt)*100*/
+/*
+/* lima 1 desertor*/
+inactivesLimaFirts();
+var student = data['LIM']['2016-2']['students'];
+var desertorPorcentaje1 = (contLimaFirts / student.length) * 100;
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection.value === '2016-2') {
+    console.log(containerDesertors.textContent = parseInt(desertorPorcentaje1) + '%');
+  }
+});
+
+
+inactivesLimaSecond();
+
+var student = data['LIM']['2017-1']['students'];
+var desertorPorcentaje2 = (contLimaSecond / student.length) * 100;
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection.value === '2017-1') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje2) + '%';
+  }
+});
+
+
+inactivesLimaThird();
+
+var student = data['LIM']['2017-2']['students'];
+var desertorPorcentaje3 = (contLimaThird / student.length) * 100;
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection.value === '2017-2') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje3) + '%';
+  }
+});
+
+inactivesArequipa();
+
+var student = data['AQP']['2016-2']['students'];
+var desertorPorcentaje4 = (contArequipaFirts / student.length) * 100;
+var selection2 = document.getElementById('select2');
+selection2.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection2.value === '2016-2') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje4) + '%';
+  }
+});
+
+inactivesArequipaSecond();
+
+var student = data['AQP']['2017-1']['students'];
+var desertorPorcentaje5 = (contArequipaSecond / student.length) * 100;
+var selection2 = document.getElementById('select2');
+selection2.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection2.value === '2017-1') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje5) + '%';
+  }
+});
+
+inactivesChileFirst();
+var student = data['SCL']['2016-2']['students'];
+var desertorPorcentaje5 = (contChileFirst / student.length) * 100;
+var selection3 = document.getElementById('select3');
+selection3.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection3.value === '2016-2') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje5) + '%';
+  }
+});
+
+inactivesChileSecond();
+var student = data['SCL']['2017-1']['students'];
+var desertorPorcentaje6 = (contChileSecond / student.length) * 100;
+var selection3 = document.getElementById('select3');
+selection3.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection3.value === '2017-1') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje6) + '%';
+  }
+});
+
+inactivesChileThird();
+var student = data['SCL']['2017-2']['students'];
+var desertorPorcentaje7 = (contChileThird / student.length) * 100;
+var selection3 = document.getElementById('select3');
+selection3.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection3.value === '2017-2') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje7) + '%';
+  }
+});
+
+inactivesMexicoFirst();
+var student = data['CDMX']['2017-1']['students'];
+var desertorPorcentaje8 = (contMexicoFirst / student.length) * 100;
+var selection4 = document.getElementById('select4');
+selection4.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection4.value === '2017-1') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje8) + '%';
+  }
+});
+
+inactivesMexicoSecond();
+var student = data['CDMX']['2017-2']['students'];
+var desertorPorcentaje9 = (contMexicoFirst / student.length) * 100;
+var selection4 = document.getElementById('select4');
+selection4.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection4.value === '2017-2') {
+    containerDesertors.textContent = parseInt(desertorPorcentaje9) + '%';
   }
 });
