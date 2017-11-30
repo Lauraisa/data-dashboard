@@ -1,52 +1,41 @@
-window.addEvenListener('load', function() {
 
-<<<<<<< HEAD
-var 
-  
-=======
-  var sedeLima = document.getElemetbyId('sedeLima');
-  var inscritos = document.getElementById('inscritos');
-  var desertores = document.getElementById('desertores');
-  var calificados = document.getElementById('calificados');
-  var calificadosPorcentaje = document.getElemetbyId('calificadosPorcentaje')
+function proter() {
 
-sedeLima.addEvenListener('click',function(event){
 
-  if( event.target){
-    inscritos.value=data['LIM']["2016-2"]['students'].length;
+  var promoters = document.getElementById('lima');
+  var promotersLim = 0;
+  promoters= data['LIM']['2016-2']['ratings'][0]['nps']['promoters'];
+  for (var i = 0; i < promoters.length; i++) {
+      if (promoters[i]['promoters'] === true) {
+        promotersLim++;
+      }
+
+    }
+  };
+  proter();
+
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+  var containerPromoters = document.getElementById('textPromote');
+
+  if (selection.value = '2016-2') {
+    containerPromoters.textContent = promotersLim;
   }
-
-                
-
-
-
-<<<<<<< HEAD
 });
-=======
 
+/* life skills*/
 
-});*/
->>>>>>> a4bf16308ae5c1ba3cc42922228e1bb215e5ec07
->>>>>>> ac27c317f1563a6c54e957abee90000a2833b9fb
+var jedimasterLima1 =[ data['LIM']['2016-2']['ratings'][0]['teacher'],
+                      data['LIM']['2017-1']['ratings'][0]['teacher'],
+                      data['LIM']['2017-2']['ratings'][0]['teacher']];
+var sumaJedi = 0;
+for(var i=0; i<jedimasterLima.length;i++);
+sumaJedi+=sumaJedi;
 
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
+var containerJedi =document.getElementById('jedi');
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+    if (selection.value = '2016-2') {
+    containerPromoters.textContent = promotersLim;
+  }
 });
-=======
-
->>>>>>> a4bf16308ae5c1ba3cc42922228e1bb215e5ec07
-
-// Puedes hacer uso de la base de datos a través de la variable `data`
-console.log(data);
-console.log(hola);
-

@@ -4,6 +4,9 @@
  * {
      margin: 0;
      padding: 0;
+    
+
+    
  }
 /* Estilo reutilizable */
 .text  {
@@ -11,7 +14,7 @@
     margin-top: 19px;
     background: rgb(225,225,225);
     height: 56px;
-   
+
 }
 .text p:first-child {
     font-weight: bold;
@@ -21,6 +24,7 @@
 .text1 {
     font-size: 10px;
     text-align: center;
+    height: 28px;
 }
 
 .texttwo{
@@ -40,6 +44,7 @@
 .textletter {
     font-size: 10px;
     text-align: center;
+    height: 27px;
 }
 .gragh {
     height: 245px;
@@ -51,94 +56,134 @@ optgroup {
     font-weight: bold;
     font-size: 17px;
 }
+.parrafo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
 
 /* Estilos específico*/
+
+/* Header*/
+header {
+    background-image:url('http://cdn2.upsocl.com/wp-content/uploads/2016/02/5387932edbb771c27bb6c7b8cd49e5ec.jpg')
+
+}
+
+img {
+    width: 264px;
+    height: 75px;
+    background: rgb(235,231,231);
+}
  .container {
-     margin-top: -40px;
-     margin-left: 550px;
-     padding-bottom: -20px;
+    margin-left: 25%;
+    padding-top: 24px;
 }
 
 .icon {
-    margin-left: 1050px;
-    margin-top: -87px;
+    margin-left: 610px;
+    margin-top: -72px;
     font-size: 30px;
-
+    height: 58px;
+    margin-right: 45px;
+    padding-left: 4px;
+    padding-top: 11px;
 }
-/*section first*/ 
+.fa {
+    padding-left: 16px;
+    width: 30px;
+    text-align: center;
+}
+.icon .fa {
+    border-radius: 10%;
+    border: 1px solid rgb(237,75,109);
+    padding: 4px;
+    background-color: rgb(235,139,193)
+    ;
+}
+.icon i:hover {
+    background: rgb(72,186,233);
+}
+/*section first*/
 .sub-container1 {
-    margin-top: 35px;
     line-height: 70px;
     font-weight: bold;
     padding-left: 100px;
-    background: rgb(225,225,225);
+    background: orange;
+    background-image: url('http://cdn2.upsocl.com/wp-content/uploads/2016/02/5387932edbb771c27bb6c7b8cd49e5ec.jpg');
 }
 .menu {
     font-size: 30px;
 }
 
 #select1 {
-    width: 30px;
-    height: 20px;
-    margin-right: 800px;
-    margin-top: -45px;
+    width: 90px;
+    height: 26px;
+    margin-right: 30%;
+    margin-top: -49px;
     float: right;
     border: none;
-    background: rgb(225,225,225);
+    font-size: 15px;
+    font-weight: bold;
+    background: lightcyan;
 }
-
-
 
 .submenu {
     font-size: 20px;
-    padding-right: 25px;
-}
-     
-/*section secund*/   
-.secund2 {
-    position: relative;
-    margin-top: 65px;
-    background: yellow; 
-}
-.parrafo {
-    font-size: 20px;
-    font-weight: bold;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: lavenderblush;
 }
 
-#box1{
-    position: absolute;
-    margin-left: 100px;
+/*section secund*/
+.secund2 {
+    position: relative;
     overflow: none;
-    background: white;
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-bottom: 100px;
     
+}
+.secundbox {
+    height: 980px;
+    width: 260px;
+    float: left;
+    background: rgb(255,193,7);
+}
+.sectisecun {
+    margin-top: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+#box1{
+    margin-left: 15%;
+    margin-top: 100px;
+    padding-left: 28px;
+    padding-right: 23px;
+    display: inline-block;
 }
 
 #box2 {
-    position: absolute;
-    margin-left:500px;
-    overflow: none;
-    background: white;
-    padding-left: 36px;
-    padding-right: 36px;
-   
-    
+    margin-left: 6%;
+    padding-left: 30px;
+    padding-right: 32px;
+    display: inline-block;
 }
 #box3 {
-    position: absolute;
-    margin-left: 900px;
-    padding-left: 36px;
-    padding-right: 36px;
-    overflow: none;
-    background: white;
-   
-    
 
+    padding-left: 27px;
+    display: inline-block;
+    margin-left: 28%;
+    padding-right: 30px;
+    margin-top: 40px;
 }
-.textchange p:first-child { 
+
+
+.textchange p:first-child {
     color: black;
-    
+
 }
 .textchange {
     float: right;
@@ -147,33 +192,38 @@ optgroup {
     height: 55px;
     width: 140px;
 }
-/* parte 2 Noelia  Tello*/
-
+/* parte 3 Noelia  Tello*/
+.secundthree {
+    height: 822px;
+    width: 260px;
+    float: left;
+    background: rgb(255,193,7);
+}
  #parte3{
-    padding-top: 500px;
-    background-color: #F2F4F4;
+    margin-top: -100px;
+    padding-top: 100px;
+    
+    
  }
 
  #container3{
-     background-color: white;
-     margin: 100px;
-     padding-bottom: 100px;
+    background-color: white;
+    padding-bottom: 40px;
 
 
  }
 #title3{
-    display:inline-block;
+    display: inline-block;
     margin-top: 50px;
-    width: 200px;
+    width: 237px;
     height: 60px;
-    margin-left: 120px;
+    margin-left: 91px;
     font-size: 4vh;
 }
 
 .selectcontainer3{
     display: inline-block;
     margin-left: 20px;
-    margin-top: 0px;
     width: 260px;
 
 
@@ -209,13 +259,10 @@ font-family: sans-serif;
     font-size: 2.3vh;
 }
 .box3{
-    width: 260px;
-    height: 100px;
+    width: 150px;
     background-color: #E6E1DC;
     margin-left: 50px;
-    margin-top: 50px;
-    display:inline-block;
-    margin-top: 40px;
+    display: inline-block;
     text-align: center;
 }
 .two{
@@ -223,11 +270,8 @@ font-family: sans-serif;
 }
 
 .pbox3{
-    color: black;
     display: inline-block;
-    text-align: center;
-    font-size: 2vh;
-    margin-top: 20px;
+    margin-top: 19px;
 }
 .green3{
    color: #28B463 ;
@@ -349,29 +393,51 @@ font-family: sans-serif;
 
 }
 
-.text5  {
-    width: 115px;
-}
+
 .text5 p:first-child {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
 }
 .text5 {
-    font-size: 10px;
-    text-align: center;
+    margin-left: 5%;
+    margin-top: 70px;
+    padding-left: 28px;
+    padding-right: 23px;
+    display: inline-block;
+}
+
+.secundfour {
+    position: relative;
+    padding-bottom: 28px;
+    overflow: none;
+}
+
+.secundboxfour {
+    height: 447px;
+    width: 260px;
+    float: left;
+    background: rgb(255,193,7);
+}
+#box5{
+    margin-left: 6%;
+    margin-top: 42px;
+    padding-left: 28px;
+    display: inline-block;
 }
 
 #box6 {
-    position: absolute;
-    margin-left:550px;
-    padding-left: 36px;
-    padding-right: 36px;
-    }
-#box7{
-    position: absolute;
-    margin-left: 1000px;
-    padding-left: 36px;
-    padding-right: 36px;
+    margin-left: 33%;
+    padding-left: 30px;
+    padding-right: 32px;
+    display: inline-block;
+    margin-top: 39px;
 }
+#box7 {
 
+    padding-left: 27px;
+    display: inline-block;
+    margin-left: 3%;
+    padding-right: 30px;
+    margin-top: 40px;
+}

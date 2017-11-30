@@ -1,0 +1,9 @@
+
+NET PROMOTER SCORE 
+
+["AQP"]["2016-2"]['ratings'][0]['nps']     para hallar Promoters Passive  Detractors
+
+data["AQP"]["2016-2"]['ratings'][0]['nps']['promoters']
+
+data["AQP"]["2016-2"]['ratings'][0]['nps']['pasive']
+data["AQP"]["2016-2"]['ratings'][0]['nps']['detractors']
