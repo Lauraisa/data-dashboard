@@ -98,8 +98,8 @@ img {
     border-radius: 10%;
     border: 1px solid rgb(237,75,109);
     padding: 4px;
-    background-color: rgb(235,139,193)
-    ;
+    background-color: rgb(235,139,193);
+    
 }
 .icon i:hover {
     background: rgb(72,186,233);
@@ -115,11 +115,31 @@ img {
 .menu {
     font-size: 30px;
 }
+.submenu {
+    font-size: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: black;
+    border-radius: 1px;
+    background-color: lavenderblush
+}
 
+
+.containerSede {
+    margin-right: 174px;
+    padding-right: 0px;
+    display: inline-block;
+    
+}
+.sede {
+    background-color:  lavenderblush;
+    border-radius: 20px ;
+       
+ }
 #select1 {
     width: 90px;
     height: 26px;
-    margin-right: 30%;
+    margin-right: -105%;
     margin-top: -49px;
     float: right;
     border: none;
@@ -128,12 +148,42 @@ img {
     background: lightcyan;
 }
 
-.submenu {
-    font-size: 20px;
-    padding-right: 3%;
-    padding-left: 3%;
-    color: lavenderblush;
+#select2 {
+    width: 103px;
+    height: 26px;
+    margin-right: -105%;
+    margin-top: -49px;
+    float: right;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background: lightcyan;
 }
+
+#select3 {
+    width: 93px;
+    height: 26px;
+    margin-right: -66%;
+    margin-top: -49px;
+    float: right;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background: lightcyan;
+}
+#select4 {
+    width: 103px;
+    height: 26px;
+    margin-right: -115%;
+    margin-top: -49px;
+    float: right;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background: lightcyan;
+}
+
+
 
 /*section secund*/
 .secund2 {

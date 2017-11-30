@@ -1,6 +1,17 @@
 
-function proter() {
+inactivesLimaFirts();
+var student = data['LIM']['2016-2']['students'];
+var desertorPorcentaje = (contLimaFirts / student.length) * 100;
+var selection = document.getElementById('select1');
+selection.addEventListener('change', function() {
+  var containerDesertors = document.getElementById('desertores');
+  if (selection.value === '2016-2') {
+    console.log(containerDesertors.textContent = parseInt(desertorPorcentaje) + '%');
+  }
+});
 
+
+function proter() {
 
   var promoters = document.getElementById('lima');
   var promotersLim = 0;
@@ -39,3 +50,6 @@ selection.addEventListener('change', function() {
     containerPromoters.textContent = promotersLim;
   }
 });
+
+
+
