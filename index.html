@@ -19,78 +19,42 @@
     </div>
     </header>
     <!--Realizando section first -->
-    <section class="sub-container1">
-        <div class="menu">
           <p>SANTIAGO DE CHILE 2017 - II</p>
+          <div>
           <form action="index.html" method="post">
-            <select name="Sedes" id="select1"  >
-
-
-                <option value=""></option>
-                <optgroup label="LIMA">
-                    <option id="lima1" value="1">2015 - I</option>
-                    <option id="lima2" value="2">2015 - II</option>
-                    <option id="lima3" value="3">2016 - I</option>
-                    <option id="lima4" value="3">2016 - II</option>
-                    <option id="lima5" value="3">2017 - I</option>
-                    <option id="lima6" value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="AREQUIPA">
-                    <option id="arequipa1" value="1">2015 - I</option>
-                    <option id="arequipa2" value="3">2016 - I</option>
-                    <option id="arequipa3" value="3">2016 - II</option>
-                    <option id="arequipa4" value="3">2017 - I</option>
-                    <option id="arequipa5" value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="SANTIAGO DE CHILE">
-                    <option id="santiago1" value="1">2015 - I</option>
-                    <option id="santiago2" value="3">2016 - I</option>
-                    <option id="santiago3" value="3">2016 - II</option>
-                    <option id="santiago4" value="3">2017 - I</option>
-                    <option id="santiago5" value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="CIUDAD DE MEXICO">
-                    <option id="mexico1" value="1">2015 - I</option>
-                    <option id="mexico2" value="3">2016 - I</option>
-                    <option id="mexico3" value="3">2016 - II</option>
-                    <option id="mexico4" value="3">2017 - I</option>
-                    <option id="mexico5" value="3">2017 - II</option>
-                </optgroup>
-
-
-                <option value=""></option>
-                <option id="sedeLima"value="LIMA">LIMA</option>
-                    <option value="1">2015 - I</option>
-                    <option value="2">2015 - II</option>
-                    <option value="3">2016 - I</option>
-                    <option value="3">2016 - II</option>
-                    <option value="3">2017 - I</option>
-                    <option value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="AREQUIPA">
-                    <option value="1">2015 - I</option>
-                    <option value="3">2016 - I</option>
-                    <option value="3">2016 - II</option>
-                    <option value="3">2017 - I</option>
-                    <option value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="SANTIAGO DE CHILE">
-                    <option value="1">2015 - I</option>
-                    <option value="3">2016 - I</option>
-                    <option value="3">2016 - II</option>
-                    <option value="3">2017 - I</option>
-                    <option value="3">2017 - II</option>
-                </optgroup>
-                <optgroup label="CIUDAD DE MEXICO">
-                    <option value="1">2015 - I</option>
-                    <option value="3">2016 - I</option>
-                    <option value="3">2016 - II</option>
-                    <option value="3">2017 - I</option>
-                    <option value="3">2017 - II</option>
-                </optgroup>
-
+            <p>LIMA</p>
+              <select id="select1">
+                  <option value=""></option>
+                  <option class="promos" id="lima" value="2016-2">lim2016-2</option>
+                  <option class="promos" id="lima" value="2017-1">lim2017-1</option>
+                  <option class="promos"id="lima" value="2017-2">lim2017-2</option>
+             </select>
+             <p>Arequipa</p>
+             <select id="select2" name="">
+                  <option class="promos"id="arequipa" value="2015-1">aqp2015-1</option>
+                  <option class="promos"id="arequipa" value="2016-1">aqp2016-1</option>
+                  <option class="promos"id="arequipa" value="2016-2">aqp2016-2</option>
+                  <option class="promos"id="arequipa" value="2017-1">aqp2017-1</option>
+                  <option class="promos"id="arequipa" value="2017-2">aqp2017-2</option>
             </select>
+            <p>SANTIAGO</p>
 
+            <select id="select3" name="">
+
+                  <option class="promos" id="santiago" value="2015-1">stg2015-1</option>
+                  <option class="promos" id="santiago" value="2016-1">stg2016-1</option>
+                  <option class="promos" id="santiago" value="2016-2">stg2016-2</option>
+                  <option  class="promos"id="santiago" value="2017-1">stg2017-1</option>
+                  <option  class="promos"id="santiago" value="2017-2">stg2017-2</option>
+            </select>
+            <p>Mexico</p>
+            <select id="select4" name="">
+                  <option  class="promos"id="mexico" value="2015-1">mex2015-1</option>
+                  <option  class="promos"id="mexico" value="2016-1">mex2016-1</option>
+                  <option  class="promos"id="mexico" value="2016-2">mex2016-2</option>
+                  <option  class="promos"id="mexico" value="2017-1">mex2017-1</option>
+                  <option class="promos" id="mexico" value="2017-2">mex2017-2</option>
+              </select>
           </form>
         </div>
         <span class="submenu">OVERVIEW</span>
@@ -102,11 +66,11 @@
         <div id="box1" >
         <p class="parrafo">ENROLLMENT</p>
           <div class="text">
-            <p id="inscritos">120</p>
+            <div id="inscritos"> <p id="textEnrollmet"></p> </div>
             <p class="text1"># STUDENT CURRENTLY ENROLLED</p>
           </div>
           <div class="texttwo">
-            <p id="desertores" >20%</p>
+            <p id="desertores" > </p>
             <p class="textletter">DROPPOUT</p>
           </div>
           <div>
