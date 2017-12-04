@@ -66,7 +66,7 @@ optgroup {
 
 /* Header*/
 header {
-    background-image:url('http://cdn2.upsocl.com/wp-content/uploads/2016/02/5387932edbb771c27bb6c7b8cd49e5ec.jpg')
+    background: rgb(255, 193, 7);
 
 }
 
@@ -96,9 +96,9 @@ img {
 }
 .icon .fa {
     border-radius: 10%;
-    border: 1px solid rgb(237,75,109);
+    border: 1px solid rgb(236, 235, 235);
     padding: 4px;
-    background-color: rgb(235,139,193);
+    background-color: rgb(236, 235, 235);
     
 }
 .icon i:hover {
@@ -109,8 +109,7 @@ img {
     line-height: 70px;
     font-weight: bold;
     padding-left: 100px;
-    background: orange;
-    background-image: url('http://cdn2.upsocl.com/wp-content/uploads/2016/02/5387932edbb771c27bb6c7b8cd49e5ec.jpg');
+    background: rgb(255, 193, 7);
 }
 .menu {
     font-size: 30px;
@@ -121,7 +120,7 @@ img {
     padding-left: 3%;
     color: black;
     border-radius: 1px;
-    background-color: lavenderblush
+    
 }
 
 
@@ -132,12 +131,12 @@ img {
     
 }
 .sede {
-    background-color:  lavenderblush;
-    border-radius: 20px ;
+    font-size: 22px;
+   
        
  }
 #select1 {
-    width: 90px;
+    width: 100px;
     height: 26px;
     margin-right: -105%;
     margin-top: -49px;
@@ -145,7 +144,7 @@ img {
     border: none;
     font-size: 15px;
     font-weight: bold;
-    background: lightcyan;
+    background: white;
 }
 
 #select2 {
@@ -157,19 +156,19 @@ img {
     border: none;
     font-size: 15px;
     font-weight: bold;
-    background: lightcyan;
+    background: white;
 }
 
 #select3 {
-    width: 93px;
+    width: 100px;
     height: 26px;
-    margin-right: -66%;
+    margin-right: -95%;
     margin-top: -49px;
     float: right;
     border: none;
     font-size: 15px;
     font-weight: bold;
-    background: lightcyan;
+    background: white;
 }
 #select4 {
     width: 103px;
@@ -180,7 +179,7 @@ img {
     border: none;
     font-size: 15px;
     font-weight: bold;
-    background: lightcyan;
+    background: white;
 }
 
 
@@ -190,8 +189,8 @@ img {
     position: relative;
     overflow: none;
     padding-bottom: 100px;
-    
 }
+
 .secundbox {
     height: 980px;
     width: 260px;
@@ -200,12 +199,14 @@ img {
 }
 .sectisecun {
     margin-top: 30px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 27px;
-    color: white;
+    font-size: 22px;
+    color: black;
     font-weight: bold;
     margin-left: 10px;
   }
+.sectisecun:hover {
+    background: rgb(236, 235, 235);
+}
 
 #box1{
     margin-left: 15%;
@@ -244,7 +245,7 @@ img {
 }
 /* parte 3 Noelia  Tello*/
 .secundthree {
-    height: 822px;
+    height: 751px;
     width: 260px;
     float: left;
     background: rgb(255,193,7);
@@ -470,14 +471,14 @@ font-family: sans-serif;
     background: rgb(255,193,7);
 }
 #box5{
-    margin-left: 6%;
+    margin-left: 4%;
     margin-top: 42px;
     padding-left: 28px;
     display: inline-block;
 }
 
 #box6 {
-    margin-left: 33%;
+    margin-left: 30%;
     padding-left: 30px;
     padding-right: 32px;
     display: inline-block;
@@ -485,9 +486,9 @@ font-family: sans-serif;
 }
 #box7 {
 
-    padding-left: 27px;
+    padding-left: 11px;
     display: inline-block;
-    margin-left: 3%;
+    margin-left: -1%;
     padding-right: 30px;
     margin-top: 40px;
 }

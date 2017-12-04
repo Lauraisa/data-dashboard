@@ -386,3 +386,6 @@ function proter() {
     for (var i = 0; i < promoters.length; i++) {
       if (promoters[i]['promoters'] === true) {
         promotersLim++;
+      }
+    }
+  }

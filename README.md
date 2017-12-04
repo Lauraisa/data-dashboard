@@ -1,25 +1,17 @@
 # Data Dashboard
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Producto final_
+El proyecto Data Dashboard, nos muestras los puntajes y porcentajes obtenidos por las estudiantes en las distintas sedes.
 
 ***
 
-## Flujo de trabajo
+## Estructura 
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Presenta una carpeta `assets`, en donde encontrarás los gráficos estadísticos.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+2. La carpeta `css`, en donde estará el archivo `main.css`.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+3. La carpeta `js` en donde estara el archivo `data.js` quien contendrá los datos a utilizar en este proyecto. El archivo `app.js` en donde escribiras el código.
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+4. Y por último el archivo `index.html`.
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+
